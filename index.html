@@ -7,7 +7,7 @@
   <title>Document</title>
 
   <!-- Css linlk -->
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
 
   <!-- Bootstarp css link -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
@@ -27,20 +27,20 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="index.html#banner">HOME</a>
+            <a class="nav-link" href="#top">HOME</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index.html#services">SERVICES</a>
+            <a class="nav-link" href="#services">SERVICES</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index.html#about-us">ABOUT US</a>
+            <a class="nav-link" href="#about-us">ABOUT US</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index.html#testimonials">TESTIMONIALS</a>
+            <a class="nav-link" href="#testimonials">TESTIMONIALS</a>
           </li>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index.html#social-media">CONTACT</a>
+            <a class="nav-link" href="#footer">CONTACT</a>
           </li>
         </ul>
       </div>
@@ -165,14 +165,16 @@
         <a href="#"><i class="fab fa-youtube-square"></i></a>
       </div>
     </div>
+
   </section>
+  <img src="image/dwater.png" class="footer-img">
 
   <!-- --------------------x---------------------Social Media Section End------------------------x------------------- -->
 
   <!-- -----------------------------------------------Footer Section------------------------------------------------------- -->
 
   <section id="footer">
-    <img src="image/dwater.png" class="footer-img">
+
     <div class="container">
       <div class="row">
         <div class="col-md-4 footer-box">
@@ -197,6 +199,12 @@
       <p class="copyright">&copy; All Right Reserved !</p>
 
   </section>
+
+  <!-- --------------------------------Smooth-Scroll----------------------------- -->
+  <script src="assets/js/smooth-scroll.js"></script>
+  <script>
+    var scroll = new SmoothScroll('a[href*="#"]');
+  </script>
 
   <!-- -------------------------x----------------------Footer Section End--------------------------x----------------------------- -->
 

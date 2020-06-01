@@ -35,6 +35,7 @@ body {
     text-align: left;
 }
 
+
 .fa-bars {
     color: white;
     font-size: 30px !important;
@@ -134,7 +135,6 @@ body {
 /* ------------------------------------about us section----------------------------------- */
 
 #about-us {
-    background: #f8f9fa;
     padding-bottom: 50px;
     padding-top: 50px;
 }
@@ -164,7 +164,7 @@ body {
 /* -------------------------------------testimonials section---------------------------------------- */
 
 #testimonials {
-    width margin: 100px 0;
+    margin: 100px 0;
 
 }
 
@@ -191,7 +191,6 @@ body {
 /* ------------------------------------------Social Media Section----------------------------------- */
 
 #social-media {
-    background: #f8f9fa;
     padding: 100px 0;
 }
 
@@ -219,6 +218,7 @@ body {
 #footer {
     background-image: linear-gradient(to right, #a517ba, #5f1782);
     color: #fff;
+
 }
 
 .footer-img {
